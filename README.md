@@ -1,4 +1,4 @@
-Unobtrusive scripting support for prototype.js
+Unobtrusive scripting support for mootools.js
 ==============================================
 
 This unobtrusive scripting support file is developed for the Ruby on Rails framework, but is not strictly tied to any specific backend. You can drop this into any application to:
@@ -13,7 +13,7 @@ These features are achieved by adding certain ["data" attributes][data] to your 
 Requirements
 ------------
 
-- [prototype.js 1.7 RC3][proto] or later;
+- [mootools.js 1.4.5][mootools] or later;
 - for Ruby on Rails only: `<%= csrf_meta_tag %>` in the HEAD of your main layout;
 - HTML5 doctype (optional).
 
@@ -111,7 +111,7 @@ If the form has file uploads, they can't be serialized and sent with Ajax. This 
     })
 
 [data]: http://dev.w3.org/html5/spec/elements.html#embedding-custom-non-visible-data-with-the-data-attributes "Embedding custom non-visible data with the data-* attributes"
-[proto]: http://prototypejs.org/2010/10/12/prototype-1-7-rc3-support-for-ie9
+[mootools]: http://mootools.net/download
 [validator]: http://validator.w3.org/
 [csrf]: http://api.rubyonrails.org/classes/ActionController/RequestForgeryProtection.html
 [RESTful]: http://en.wikipedia.org/wiki/Representational_State_Transfer "Representational State Transfer"
